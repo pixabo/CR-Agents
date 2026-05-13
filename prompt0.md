@@ -1,4 +1,5 @@
 </> Markdown
+
 #Collaborative Reasoning Session -- Environment Setup (prompt0)
 
 ##Synopsis (for humans)
@@ -58,13 +59,13 @@ Reading xlsx files with openpyxl (cells may contain ≈, °, ±, em dashes, smar
 Running validate.py from claude-docx-bundle (XML contains Unicode punctuation)
 Any script that prints non-ASCII characters
 
-1. Locate Method Documents
+##1. Locate Method Documents
 
 The collaborative reasoning method requires three foundational documents. Find them relative to the current working directory:
 
-Operational guide — search for method/operational_guide.md (Appendix A). This is the executable instruction set you will follow throughout the session.
-Technical note — search for method/technical_note.md. This is the method architecture and rationale. Read Sections 1-5 for understanding; Appendix A (the operational guide) is your operating manual.
-TDD method — search for method/tdd_method.md. This defines the test-driven development approach used to define deliverables before building them.
+**Operational guide** — search for method/operational_guide.md (Appendix A). This is the executable instruction set you will follow throughout the session.
+**Technical note** — search for method/technical_note.md. This is the method architecture and rationale. Read Sections 1-5 for understanding; Appendix A (the operational guide) is your operating manual.
+**TDD method** — search for method/tdd_method.md. This defines the test-driven development approach used to define deliverables before building them.
 
 Search strategy: look in the current directory and one level down first. If not found, search up to two levels up from the working directory. Store the discovered paths for the session.
 
@@ -80,7 +81,7 @@ find .. -path "*/method/operational_guide.md" -print
 find .. -path "*/method/technical_note.md" -print
 find .. -path "*/method/tdd_method.md" -print
 
-2. Locate the Document Toolkit (Optional)
+##2. Locate the Document Toolkit (Optional)
 
 If the session work order, change order, user request, or gameplan involves producing .docx or .pdf deliverables, locate the document toolkit:
 
