@@ -1,5 +1,3 @@
-</> Markdown
-
 #Collaborative Reasoning Session -- Environment Setup (prompt0)
 
 ##Synopsis (for humans)
