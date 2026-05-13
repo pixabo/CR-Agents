@@ -1,6 +1,7 @@
-##Collaborative Reasoning Session -- Environment Setup (prompt0)
+</> Markdown
+#Collaborative Reasoning Session -- Environment Setup (prompt0)
 
-#Synopsis (for humans)
+##Synopsis (for humans)
 
 Claude Code arrives relatively unskilled compared to browser Claude. It cannot open PDFs, does not know your formatting rules, and has no document production skills out of the box. This file (prompt0) bootstraps those capabilities by locating the method documents, verifying tool availability, loading the document production toolkit, and establishing the session. You do not need to read the machine instructions below; just hand this file to Claude Code at session start.
 
